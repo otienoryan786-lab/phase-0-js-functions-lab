@@ -13,7 +13,14 @@ function findMaximum(num1, num2) {
 
 function isPalindrome(word) {
     const reversedWord = cleanedWord.split('').reverse().join('');
+    
     return cleanedWord === reversedWord;
+    if (cleanedWord === reversedWord) {
+        return true;
+    } else {
+        return false;
+    }
+
 }
 
 function calculateDiscountedPrice(originalPrice, discountPercentage) {
